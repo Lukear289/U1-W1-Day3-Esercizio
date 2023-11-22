@@ -1,6 +1,27 @@
 .logo {
   text-align: center;
 }
+.firma-immagine {
+  opacity: 0.5;
+  text-align: center;
+}
 h5 {
   text-align: center;
+}
+h1 {
+  text-align: center;
+}
+main {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link {
+  color: red;
+  font-weight: bold;
 }
