@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body {
+  margin: 0;
+}
 .logo {
   text-align: center;
 }
@@ -12,8 +16,8 @@
 .immagine-focaccia img {
   border-radius: 20px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
 }
-
 h5 {
   text-align: center;
   background-color: #ffd7001c;
@@ -24,20 +28,36 @@ h5 {
 h1 {
   text-align: center;
 }
-main {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+aside p {
+  margin: 1px;
 }
+aside {
+  border-left: 2px solid rgb(192, 132, 20);
+  padding-left: 5px;
+}
+main,
 footer {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
+.ingredients {
+  border-bottom: 1.5px solid rgb(0, 229, 255);
+  padding-bottom: 3vh;
+  font-weight: 350;
+  font-size: 1.8em;
+  font-family: 'Playfair Display', serif;
+}
 .link {
   color: red;
   font-weight: bold;
 }
-.link2 {
-  color: blue;
+a {
+  color: #107777;
+}
+.titleul {
+  font-weight: bold;
+}
+li {
+  margin: 7px;
 }
